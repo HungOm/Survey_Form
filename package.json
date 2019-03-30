@@ -1,0 +1,24 @@
+{
+  "name": "survey_form",
+  "version": "1.0.0",
+  "description": "my survey form for freecodecamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HungOm/Survey_Form.git"
+  },
+  "author": "Hung Om",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HungOm/Survey_Form/issues"
+  },
+  "homepage": "https://github.com/HungOm/Survey_Form#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}

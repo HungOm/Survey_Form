@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <title>FreecodecampSurveyform</title>
+  </head>
+  <body>
+    
+<h1 id="title">Survey Form</h1>
+    <!-- <main id="survey col"> -->
+      <div class="container">
+
+        <form id="survey">
+          <p id="caption">Let us know how we can improve freeCodeCamp </p>
+          <div class="form-group" id="name">
+              <div class="labels">
+                <label for="name">* Name:</label>
+              </div>
+              <div class="fields">
+                <input type="text" class="form-control" id="name" placeholder="name" required>
+              </div>
+          </div>
+
+
+            <div class="form-group" id="email">
+              <div class="labels">
+                <label for="name">* Email:</label>
+              </div>
+              <div class="fields">
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              </div>
+          </div>
+
+          <div class="form-group" id="age">
+            <div class="labels">
+              
+              <label for="agefield">Age</label>
+            </div>
+            <div class="fields">
+             <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
+          </div>
+        </div>
+
+
+          <div class="form-group" id="occupation">
+            <div class="labels">
+              
+              <label for="agefield">Which option best describes your current role?</label>
+            </div>
+            <div class="fields">
+             
+             <select>
+              <option value="student">Student</option>
+              <option value="job">Full time job</option>
+              <option value="learner">Full time learner</option>
+              <option value="notsay">Prefer not to say</option>
+              <option value="other">other</option>
+            </select>
+          </div>
+          </div>
+
+
+          <div class="form-group" id="radio">
+            <div class="labels">
+              
+              <label for="agefield">* How likely is that you would recommend freeCodeCamp to a friend?</label>
+            </div>
+            <div class="fields">
+              <ul>
+            <li class="radio">
+             <input type="radio" id="definitely" name="radio-buttons" value="1"checked>
+             <label for="definitly">Definitely</label>
+           </li>
+
+            <li class="radio">
+             <input type="radio" id="maybe" name="radio-buttons" value="1"checked>
+             <label for="maybe">Maybe</label>
+           </li>
+
+            <li class="radio">
+             <input type="radio" id="notSure" name="radio-buttons" value="1"checked>
+             <label for="notSure">Not Sure</label>
+           </li>
+         </ul>
+
+          </div>
+        </div>
+
+
+        <div class="form-group" id="occupation">
+            <div class="labels">
+              
+              <label for="agefield">What do you like most in FCC:</label>
+            </div>
+            <div class="fields">
+             
+             <select>
+              <option value="student">Challenges</option>
+              <option value="job">Projects</option>
+              <option value="learner">Community</option>
+              <option value="notsay">Open Source</option>
+            </select>
+          </div>
+          </div>
+
+
+           <div class="form-group" id="occupation">
+            <div class="labels">
+              
+              <label for="agefield">What do you like most in FCC:</label>
+            </div>
+            <div class="fields">
+             
+             <select>
+              <option value="student">Challenges</option>
+              <option value="job">Projects</option>
+              <option value="learner">Community</option>
+              <option value="notsay">Open Source</option>
+            </select>
+          </div>
+          </div>
+
+
+          <div class="form-group" id="checkbox">
+            <div class="labels">
+              
+              <label for="agefield">Things that should be improved in the future
+(Check all that apply):</label>
+            </div>
+            <div class="fields">
+              <ul>
+            <li class="checkbox">
+             <input type="checkbox" id="front-end" name="choice" value="1"checked>
+             <label for="front-end">Front-end Projects</label>
+           </li>
+
+            <li class="checkbox">
+             <input type="checkbox" id="back-end" name="choice" value="2">
+             <label for="back-end">Back-end Projects</label>
+           </li>
+
+            <li class="checkbox">
+             <input type="checkbox" id="data-visual" name="choice" value="3">
+             <label for="data-visual">Data Visualization</label>
+           </li>
+
+           <li class="checkbox">
+             <input type="checkbox" id="Challenges" name="choice" value="4">
+             <label for="Challenges">Challenges</label>
+           </li>
+
+
+           <li class="checkbox">
+             <input type="checkbox" id="open-source" name="choice" value="5">
+             <label for="open-source">Open Source Community</label>
+           </li>
+
+           <li class="checkbox">
+             <input type="checkbox" id="Gitter" name="choice" value="6">
+             <label for="Gitter">Gitter help rooms</label>
+           </li>
+
+           <li class="checkbox">
+             <input type="checkbox" id="videos" name="choice" value="7">
+             <label for="videos">Videos</label>
+           </li>
+
+           <li class="checkbox">
+             <input type="checkbox" id="city-meet" name="choice" value="8">
+             <label for="city-meet">City Meetups</label>
+           </li>
+
+           <li class="checkbox">
+             <input type="checkbox" id="wiki" name="choice" value="8">
+             <label for="wiki">Wiki</label>
+           </li>
+
+
+           <li class="checkbox">
+               <input type="checkbox" id="forum" name="choice" value="8">
+               <label for="forum">Forum</label>
+             </li>
+
+           <li class="checkbox">
+               <input type="checkbox" id="addition" name="choice" value="8">
+               <label for="addition">Additional courses</label>
+             </li>
+           </ul>
+
+          </div>
+        </div>
+
+          <div class="form-group" id="age">
+            <div class="labels">
+              
+              <label for="agefield">Age</label>
+            </div>
+            <div class="fields">
+             <textarea class="form-control" id="coments" style="height: 50px;resize: vertical;" placeholder="enter your comments here"></textarea>
+          </div>
+        </div>
+
+
+
+        <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+
+
+        </form>
+        
+        
+      </div>
+
+    <!-- </main> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
